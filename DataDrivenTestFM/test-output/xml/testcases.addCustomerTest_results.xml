@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="manager "
+           tests="23"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="44.814">
+  <properties />
+  
+            <testcase name="screenshotValidationAmeo" time="0.0" classname="testcases.addCustomerTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="addCustomerTest" time="1.962" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.514" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.735" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.013" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.976" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.782" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.820" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.992" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.076" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.923" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.573" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.826" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.224" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.332" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.785" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.996" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.031" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.968" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.063" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.003" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="2.212" classname="testcases.addCustomerTest" />
+                <testcase name="addCustomerTest" time="1.895" classname="testcases.addCustomerTest" />
+      
+</testsuite>

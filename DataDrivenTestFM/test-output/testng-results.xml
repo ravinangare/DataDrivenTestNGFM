@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="27" passed="25" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-01T16:05:26Z" name="BankSuite" finished-at="2024-03-01T16:06:26Z" duration-ms="59172">
+    <groups>
+    </groups>
+    <test started-at="2024-03-01T16:05:26Z" name="LoginTest" finished-at="2024-03-01T16:05:38Z" duration-ms="11640">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:testcases.LoginTest@f79e]" started-at="2024-03-01T16:05:26Z" name="SetUp" finished-at="2024-03-01T16:05:34Z" duration-ms="7524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginsAsManager()[pri:1, instance:testcases.LoginTest@f79e]" started-at="2024-03-01T16:05:34Z" name="LoginsAsManager" description="Login as Manager" finished-at="2024-03-01T16:05:37Z" duration-ms="2617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginsAsManager -->
+        <test-method signature="LoginsAsMember()[pri:1, instance:testcases.LoginTest@f79e]" started-at="2024-03-01T16:05:37Z" name="LoginsAsMember" description="Login as Member" finished-at="2024-03-01T16:05:38Z" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginsAsMember -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-03-01T16:05:39Z" name="manager " finished-at="2024-03-01T16:06:26Z" duration-ms="46891">
+      <class name="testcases.addCustomerTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:39Z" name="SetUp" finished-at="2024-03-01T16:05:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:39Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:41Z" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nangare]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411046.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:41Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:44Z" duration-ms="2063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utkarshaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nangare]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:44Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:46Z" duration-ms="2003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rathod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411121.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:46Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:48Z" duration-ms="2332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pratik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sangale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[435465.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:48Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:50Z" duration-ms="2514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amardeep ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jadhav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23424S]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:50Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:52Z" duration-ms="1962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prabhu ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jeet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[432717.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:52Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:54Z" duration-ms="2031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aditi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wakhare]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[412213.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:54Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:56Z" duration-ms="1992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akshay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumbhar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411046.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:56Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:05:58Z" duration-ms="1976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sneha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411046.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:05:58Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:00Z" duration-ms="1968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jadhav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411041.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:00Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:03Z" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bharat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lokhande]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:03Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:05Z" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uttam ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[munde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:05Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:07Z" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghodake]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411046.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:07Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:09Z" duration-ms="2212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Satwadhar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:09Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:11Z" duration-ms="2076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gauri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhide]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411034.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:11Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:13Z" duration-ms="1895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhijeet ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kulkarni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431521.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:13Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:15Z" duration-ms="1782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gochade]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[422121.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:15Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:16Z" duration-ms="1820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amardeep ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Awchar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411041.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:16Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:18Z" duration-ms="2013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Todkar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411046.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:18Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:20Z" duration-ms="1826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shaikh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:20Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:22Z" duration-ms="1735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[411041.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:22Z" name="addCustomerTest" description="Creating different types of customers" data-provider="addCustomer" finished-at="2024-03-01T16:06:24Z" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[431517.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="screenshotValidationAmeo()[pri:99, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:26Z" name="screenshotValidationAmeo" description="Fail test to verify screenshot feature" finished-at="2024-03-01T16:06:26Z" duration-ms="113" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test: screenshotValidationAmeo because is not approved to run]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test: screenshotValidationAmeo because is not approved to run
+at listener.Listener.onTestStart(Listener.java:23)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:73)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:559)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotValidationAmeo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.addCustomerTest@6a2b953e]" started-at="2024-03-01T16:06:26Z" name="tearDown" finished-at="2024-03-01T16:06:27Z" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.addCustomerTest -->
+      <class name="testcases.OpenAccountTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:testcases.OpenAccountTest@313b2ea6]" started-at="2024-03-01T16:06:24Z" name="SetUp" finished-at="2024-03-01T16:06:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="openAccountForExistingCustomers(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.OpenAccountTest@313b2ea6]" started-at="2024-03-01T16:06:24Z" name="openAccountForExistingCustomers" description="Creating accounts for existing customers" data-provider="openAccount" finished-at="2024-03-01T16:06:26Z" duration-ms="1718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi nangare]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1016]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountForExistingCustomers -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- manager  -->
+  </suite> <!-- BankSuite -->
+</testng-results>
